@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.Black;
             //Exo1 exo1 = new Exo1();
             //exo1.Execute();
 
@@ -15,8 +17,11 @@
             //exo3.CalculateTVA();
             //exo3.CalculateTvaFloat();
 
-            Exo4 exo4 = new Exo4();
-            exo4.Execute();
+            //Exo4 exo4 = new Exo4();
+            //exo4.Execute();
+
+            Exo5 exo5 = new Exo5();
+            exo5.Execute();
         }
     }
 }
