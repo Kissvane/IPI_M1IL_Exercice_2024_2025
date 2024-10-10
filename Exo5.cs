@@ -50,5 +50,41 @@ namespace IPI_C_sharp_2024_202
                 Console.WriteLine("Impossible de diviser par 0");
             }
         }
+
+        public void Execute2()
+        {
+            int value1 = EnterValidNumber();
+            int value2 = EnterValidNumber();
+
+            Addition(value1, value2);
+            if (value2 != 0)
+            {
+                Division(value1, value2);
+            }
+            else
+            {
+                Console.WriteLine("Impossible de diviser par 0");
+            }
+        }
+
+        private int EnterValidNumber()
+        {
+            bool valid = false;
+            int value = 0;
+            while (!valid)
+            {
+                Console.WriteLine("Tapez un nombre:");
+                string input = Console.ReadLine();
+                if (!int.TryParse(input, out value))
+                {
+                    Console.WriteLine("Ne tapez que des chiffres SVP !");
+                }
+                else
+                {
+                    valid = true;
+                }
+            }
+            return value;
+        }
     }
 }
