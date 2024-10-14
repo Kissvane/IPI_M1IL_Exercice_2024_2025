@@ -6,19 +6,16 @@ using System.Threading.Tasks;
 
 namespace IPI_C_sharp_2024_2025_M1IL
 {
-    public class Exo10
+    public class Exo11
     {
         public void Execute()
         {
-            Console.WriteLine("Tapez un nombre");
-            int value = int.Parse(Console.ReadLine());
-
-            int result = 0;
-            for (int i = 0; i <= value; i++)
+            string result = null;
+            for (int i = 30; i >= 0; i -= 3)
             {
-                result += i;
+                result += $"{i}-";
             }
-
+            result = result.Remove(result.Length-1);
             Console.WriteLine(result);
         }
     }

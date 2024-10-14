@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IPI_C_sharp_2024_202
+namespace IPI_C_sharp_2024_2025_M1IL
 {
     public class Exo8
     {

@@ -1,4 +1,4 @@
-﻿namespace IPI_C_sharp_2024_202
+﻿namespace IPI_C_sharp_2024_2025_M1IL
 {
     internal class Program
     {
@@ -36,8 +36,20 @@
             //Exo9 exo9 = new Exo9();
             //exo9.Execute2();
 
-            Exo10 exo10 = new Exo10();
-            exo10.Execute();
+            //Exo10 exo10 = new Exo10();
+            //exo10.Execute();
+
+            //Exo11 exo11 = new Exo11();
+            //exo11.Execute();
+
+            //Exo12 exo12 = new Exo12();
+            //exo12.Execute();
+
+            //Exo13 exo13 = new Exo13();
+            //exo13.Execute();
+
+            Exo14 exo14 = new Exo14();
+            exo14.Execute();
         }
     }
 }
