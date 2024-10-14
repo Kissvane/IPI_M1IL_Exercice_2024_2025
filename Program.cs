@@ -54,8 +54,17 @@
             //Exo15 exo15 = new Exo15();
             //exo15.Execute();
 
-            Exo16 exo16 = new Exo16();
-            exo16.Execute();
+            //Exo16 exo16 = new Exo16();
+            //exo16.Execute();
+
+            //Exo17 exo17 = new Exo17();
+            //exo17.Execute();
+
+            //Exo18 exo18 = new Exo18();
+            //exo18.Execute(new int[] { 1, 2, 6, 7, 8 }, new int[] {3, 4, 5}, 2);
+
+            Exo19 exo19 = new Exo19();
+            exo19.Execute();
         }
     }
 }
