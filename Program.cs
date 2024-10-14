@@ -63,8 +63,14 @@
             //Exo18 exo18 = new Exo18();
             //exo18.Execute(new int[] { 1, 2, 6, 7, 8 }, new int[] {3, 4, 5}, 2);
 
-            Exo19 exo19 = new Exo19();
-            exo19.Execute();
+            //Exo19 exo19 = new Exo19();
+            //exo19.Execute();
+
+            //Exo20 exo20 = new Exo20();
+            //exo20.Execute("TAR###TTTRE");
+
+            Exo21 exo21 = new Exo21();
+            exo21.Execute();
         }
     }
 }
