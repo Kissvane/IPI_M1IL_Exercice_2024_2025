@@ -69,8 +69,14 @@
             //Exo20 exo20 = new Exo20();
             //exo20.Execute("TAR###TTTRE");
 
-            Exo21 exo21 = new Exo21();
-            exo21.Execute();
+            //Exo21 exo21 = new Exo21();
+            //exo21.Execute();
+
+            //Exo22 exo22 = new Exo22();
+            //exo22.Execute();
+
+            Exo23 exo23 = new Exo23();
+            exo23.Execute();
         }
     }
 }
