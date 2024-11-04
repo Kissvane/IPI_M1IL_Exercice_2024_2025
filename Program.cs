@@ -81,8 +81,11 @@
             //Exo24 exo24 = new Exo24();
             //exo24.Execute();
 
-            Exo25 exo25 = new Exo25();
-            exo25.Execute();
+            //Exo25 exo25 = new Exo25();
+            //exo25.Execute();
+
+            Exo26 exo26 = new Exo26();
+            exo26.Execute();
         }
     }
 }
